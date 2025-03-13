@@ -9,16 +9,14 @@ This project serves as an interactive "About Me" page, providing visitors with a
 ## 🛠️ Technologies Used  
 
 - **Frontend**: HTML, CSS, JavaScript  
-- **Frameworks/Libraries**: 
-- **Backend**: 
-- **Version Control**: Git, GitHub  
-- **Deployment**: 
+- **Frameworks/Libraries**: Iconify, Google, W3Schools
+- **Version Control**: Git, GitHub, VS Code
 
 ## 📂 Features  
 
-- A visually appealing, responsive design  
-- A biography section with personal details  
-- Highlights of skills, experiences, and interests  
+- A minimalistic responsive design with an earthy color scheme 
+- Multiple sections showcasing personality from an interview 
+- Highlights of likes, dislikes, and fun facts  
 - Contact links for networking opportunities  
 
 ## 📌 Installation & Setup  
@@ -27,14 +25,10 @@ To run this project locally:
 
 1. Clone the repository:  
    ```sh
-   git clone https://github.com/your-github-username/about-me-project.git
+   git clone https://github.com/jordanlenhart/about-me-partner
    ```  
 2. Navigate to the project directory:  
    ```sh
-   cd about-me-project
+   cd about-me-partner
    ```  
 3. Open `index.html` in a browser or use a local server for better performance  
-
-## 🚀 Live Demo  
-
-Check out the live version here:  
