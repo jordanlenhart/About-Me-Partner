@@ -1,4 +1,11 @@
 /* Master Styles i.e fonts, colors, etc. */
+
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
 html {
     background-color: #606C38;
     color: #FEFAE0;
@@ -6,17 +13,38 @@ html {
 }
 
 body {
-    margin: 0px;
+    margin: 0;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 350;
 }
 
 /* Nav Bar */
 
 nav {
-    background-color: #BC6C25;
+    background-color: #283618;
     display: flex;
     align-items: center;
+    justify-content: left;
+    padding-left: 10px;
+    column-gap: 200px;
     height: 85px;
-    width: 1440px;
+    width: 100%;
     top: 0%;
 }
 
@@ -27,15 +55,30 @@ ul {
     font-weight: 500;
 }
 
-svg{
-    padding: 10px;
-}
-
-.nav-bar-contact-links {
+.nav-bar-contact-links-list {
+    display: flex;
+    column-gap: 100px;
 }
 
 .nav-bar-tabs {
+    display: flex;
+    color: #FEFAE0;
+    text-decoration: none;
+    column-gap: 100px;
+}
 
+.nav-bar-tab-containers {
+    background-color: #BC6C25;
+    width: 179px;
+    height: 50px;
+}
+
+.links {
+    text-decoration: none;
+    color: #FEFAE0;
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
 }
 
 /* Page Sections */
@@ -43,16 +86,58 @@ svg{
 .sections-container {
     margin: 10px;
     width: 1000px;
-    height: 3600px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 300px;
 }
 
 .first-section {
-
+    margin-top: 200px;
+    text-align: center;
+    display: flex;
 }
+
+.about-me-text {
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 .second-section {
 
 }
+
+.fun-facts-container {
+    display: flex;
+    text-align: center;
+    column-gap: 40px;
+}
+
+.fun-facts-content {
+    border-style: solid;
+    border-color: #FEFAE0;
+    padding: 5px;
+}
+
 .third-section {
 
+}
+
+.likes-content-container {
+    display: flex;
+    align-items: center;
+}
+
+.likes-media {
+
+}
+
+.dislikes-content-container {
+    display: flex;
+    text-align: center;
+    column-gap: 100px;
+}
+
+.fnf-image {
 }
