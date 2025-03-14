@@ -37,6 +37,7 @@ p {
 /* Nav Bar */
 
 nav {
+    position: sticky;
     background-color: #283618;
     display: flex;
     align-items: center;
@@ -113,10 +114,6 @@ a>svg:hover {
     padding-right: 100px;
 }
 
-.second-section {
-
-}
-
 .fun-facts-container {
     display: flex;
     text-align: center;
@@ -129,28 +126,17 @@ a>svg:hover {
     padding: 5px;
 }
 
-.third-section {
-
-}
-
 .likes-content-container {
     display: flex;
     align-items: center;
 }
 
-.likes-media {
-
+.fourth-section {
+    margin-bottom: 200px;
 }
 
 .dislikes-content-container {
     display: flex;
     text-align: center;
     column-gap: 100px;
-}
-
-.fnf-image {
-}
-
-.big-no {
-
 }
