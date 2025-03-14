@@ -67,8 +67,17 @@ ul {
     column-gap: 100px;
 }
 
-.nav-bar-tab-containers {
+.links:hover {
     background-color: #BC6C25;
+    border-radius: 1em;
+}
+
+a>svg:hover {
+    background-color: #BC6C25;
+    border-radius: 1em;
+}
+
+.nav-bar-tab-containers {
     width: 179px;
     height: 50px;
 }
@@ -140,4 +149,8 @@ ul {
 }
 
 .fnf-image {
+}
+
+.big-no {
+
 }
